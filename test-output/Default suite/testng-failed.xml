@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Selenium.GazeeboTensileTest">
+      <class name="Selenium.AuditoriumTensileTest">
         <methods>
-          <include name="imagearrowprevious"/>
+          <include name="navigate"/>
+          <include name="costbenefit"/>
+          <include name="leightweightnature"/>
           <include name="imagearrowforward"/>
-          <include name="setup"/>
+          <include name="imagearrowprevious"/>
         </methods>
-      </class> <!-- Selenium.GazeeboTensileTest -->
+      </class> <!-- Selenium.AuditoriumTensileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
